@@ -1,0 +1,49 @@
+### Gradle ###
+/.gradle/
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### IntelliJ IDEA ###
+/.idea/
+*.iws
+*.iml
+*.ipr
+/out/
+
+### Eclipse / STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### OS files ###
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+### Logs ###
+*.log
+logs/
+
+### H2 database files ###
+*.mv.db
+*.trace.db
+# If you store DB files inside the repo, prefer a targeted ignore like:
+# /anti_fraud_system_db*
+
+.env
+application-local.properties
